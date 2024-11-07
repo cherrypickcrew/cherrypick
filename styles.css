@@ -1,0 +1,165 @@
+/* styles.css */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* Header */
+.header {
+  background: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a, .btn {
+  text-decoration: none;
+  color: #333;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: #ff5a5f;
+  color: #fff;
+}
+
+.btn-secondary {
+  background: #007bff;
+  color: #fff;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 0;
+  background: #fff5f5;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero-buttons .btn {
+  margin: 0 10px;
+}
+
+.hero-image {
+  margin-top: 30px;
+  max-width: 80%;
+}
+
+/* Features Section */
+.features {
+  padding: 60px 0;
+}
+
+.features h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.feature h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+/* Benefits Section */
+.benefits {
+  padding: 60px 0;
+  background: #f8f8f8;
+}
+
+.benefits-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.benefits img {
+  max-width: 50%;
+  border-radius: 10px;
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.testimonial {
+  margin: 20px 0;
+  font-style: italic;
+}
+
+/* Download Section */
+.download {
+  text-align: center;
+  padding: 60px 0;
+}
+
+/* Footer */
+.footer {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
