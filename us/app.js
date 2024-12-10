@@ -62,9 +62,9 @@ window.addEventListener('scroll', () => {
 
 function switchCountry(country) {
     if (country === 'in') {
-        window.location.href = 'cherrypickcc.com/in';
+        window.location.href = 'https://cherrypickcc.com/inn';
     } else if (country === 'us') {
-        window.location.href = 'cherrypickcc.com/in/us';
+        window.location.href = 'https://cherrypickcc.com/us';
     }
 }
 
