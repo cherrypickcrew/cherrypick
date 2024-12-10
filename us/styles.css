@@ -719,3 +719,27 @@ section {
     gap: 1.5rem;
   }
 }
+
+.country-switcher {
+    margin-left: 0;
+}
+
+.country-switcher select {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.country-switcher select:focus {
+    outline: none;
+    border-color: #ff6b6b;
+}
+
+@media (max-width: 768px) {
+    .country-switcher {
+        margin-right: 0;
+    }
+}

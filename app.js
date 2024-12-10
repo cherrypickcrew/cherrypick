@@ -58,4 +58,23 @@ window.addEventListener('scroll', () => {
   } else {
     header.classList.remove('sticky');
   }
+});
+
+function switchCountry(country) {
+    if (country === 'in') {
+        window.location.href = '/in';
+    } else if (country === 'us') {
+        window.location.href = '/us';
+    }
+}
+
+// Set initial country based on current URL
+document.addEventListener('DOMContentLoaded', function() {
+    const path = window.location.pathname;
+    const select = document.getElementById('countrySelect');
+    if (path.includes('/us')) {
+        select.value = 'us';
+    } else {
+        select.value = 'in';
+    }
 }); 

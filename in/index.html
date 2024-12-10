@@ -34,6 +34,12 @@
           <li><a href="#features">Features</a></li>
           <li><a href="#how-it-works">See it in action</a></li>
           <li><a href="https://linktr.ee/cherrypickapp">Downloads & Socials</a></li>
+          <li class="country-switcher">
+            <select id="countrySelect" onchange="switchCountry(this.value)">
+              <option value="us">🇺🇸 US</option>
+              <option value="in">🇮🇳 India</option>
+            </select>
+          </li>
         </ul>
       </nav>
     </div>
@@ -110,7 +116,7 @@
             <img src="online.png" alt="Location Screen">
           </div>
           <h3>2. Shop Anywhere</h3>
-          <p>We'll detect your location or let you search for merchants both online and offline.</p>
+          <p>We'll detect your location(optional) or let you search for merchants both online and offline.</p>
         </div>
         <div class="preview-item fade-in">
           <div class="preview-device">
