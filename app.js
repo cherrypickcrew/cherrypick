@@ -72,9 +72,9 @@ function switchCountry(country) {
 document.addEventListener('DOMContentLoaded', function() {
     const path = window.location.pathname;
     const select = document.getElementById('countrySelect');
-    if (path.includes('/us')) {
-        select.value = 'us';
-    } else {
+    if (path.includes('/in')) {
         select.value = 'in';
+    } else {
+        select.value = 'us';
     }
 }); 
