@@ -756,7 +756,7 @@ section {
   display: none; /* Initially hidden */
   text-align: center;
   margin-top: 10px;
-  max-width: 150px; /* Restrict the container width */
+  max-width: 300px; /* Restrict the container width */
   margin-left: auto;
   margin-right: auto;
 }
@@ -764,7 +764,7 @@ section {
 /* Restrict the size of the QR code image */
 .qr-code {
   width: 100%; /* Make the image responsive */
-  max-width: 120px; /* Set a maximum width */
+  max-width: 240px; /* Set a maximum width */
   height: auto; /* Maintain aspect ratio */
 }
 

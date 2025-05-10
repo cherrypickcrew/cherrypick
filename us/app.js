@@ -71,7 +71,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const qrCodeContainer = document.querySelector(".qr-code-container");
 
   // Check if the screen width is greater than or equal to 1024px (desktop)
-  console.log("-------->",window.innerWidth);
   if (window.innerWidth >= 1024) {
     qrCodeContainer.style.display = "block";
   }
