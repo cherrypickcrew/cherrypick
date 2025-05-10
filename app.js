@@ -67,6 +67,14 @@ function switchCountry(country) {
         window.location.href = 'https://cherrypickcc.com/in';
     }
 }
+document.addEventListener("DOMContentLoaded", function () {
+  const qrCodeContainer = document.querySelector(".qr-code-container");
+
+  // Check if the screen width is greater than or equal to 1024px (desktop)
+  if (window.innerWidth >= 1024) {
+    qrCodeContainer.style.display = "block";
+  }
+});
 
 // Set initial country based on current URL
 document.addEventListener('DOMContentLoaded', function() {

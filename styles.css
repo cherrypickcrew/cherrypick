@@ -746,22 +746,8 @@ section {
 
 .qr-code-container {
   display: none;
-  text-align: center;
-  margin-top: 10px;
 }
 
-.qr-code {
-  width: 120px;
-  height: auto;
-}
-
-.qr-label {
-  font-size: 14px;
-  color: #333;
-  margin-top: 5px;
-}
-
-/* Show QR code on desktop screens */
 @media (min-width: 1024px) {
   .qr-code-container {
     display: block;
