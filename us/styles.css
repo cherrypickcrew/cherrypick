@@ -743,3 +743,13 @@ section {
         margin-right: 0;
     }
 }
+
+.qr-code-container {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .qr-code-container {
+    display: block;
+  }
+}
