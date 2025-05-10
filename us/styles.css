@@ -744,12 +744,34 @@ section {
     }
 }
 
-.qr-code-container {
-  display: none;
-}
+
 
 @media (min-width: 1024px) {
   .qr-code-container {
     display: block;
   }
+}
+/* Restrict the size of the QR code container */
+.qr-code-container {
+  display: none; /* Initially hidden */
+  text-align: center;
+  margin-top: 10px;
+  max-width: 150px; /* Restrict the container width */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Restrict the size of the QR code image */
+.qr-code {
+  width: 100%; /* Make the image responsive */
+  max-width: 120px; /* Set a maximum width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Style the label below the QR code */
+.qr-label {
+  font-size: 14px;
+  color: #333;
+  margin-top: 5px;
+  text-align: center;
 }
